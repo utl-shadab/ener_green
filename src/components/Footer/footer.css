@@ -1,0 +1,54 @@
+:root {
+    --primary: #A7C957;
+    --secondary: #757575;
+    --light: #F3F6F8;
+    --dark: #000000;
+    
+}
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+/*** Footer ***/
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    background: #092139;
+}
+
+.copyright a {
+    color: var(--primary);
+}
+
+.copyright a:hover {
+    color: var(--light);
+}
+.logo img{
+    height: 60px !important;
+}
+.logo{
+    font-size: 20px;
+}

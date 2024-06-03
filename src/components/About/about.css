@@ -1,0 +1,39 @@
+.new {
+    padding: 70px 0 0px 0;
+}
+.new h2 {
+    color: #080404;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+}
+p.new-para {
+    color: #080404;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.6px;
+}
+.btn-outline-secondary {
+    /* border: 2px solid #080404 !important; */
+    border-radius: 0;
+    color: #080404;
+}
+
+.btn {
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.btn:hover {
+    background-color: #a7c957;
+    color: rgb(0, 0, 0);
+    border: 1px solid #a7c957;
+    
+}
+.about-img {
+    border-radius: 20px;
+}

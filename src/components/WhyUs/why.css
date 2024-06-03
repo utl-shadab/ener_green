@@ -1,0 +1,72 @@
+:root {
+    --primary: #A7C957;
+    --secondary: #757575;
+    --light: #F3F6F8;
+    --dark: #000000;
+    
+}
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+.why-us{
+    background: #FFFFFF;
+}
+.section{
+    padding: 60px 0;
+}
+/*** About & Feature ***/
+.about-img,
+.feature-img {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+}
+.section-title {
+    color: var(--primary);
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.about-img img,
+.feature-img img {
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.about-img img:last-child,
+.feature-img img:last-child {
+    margin: 20% 0 0 40%;
+}
+
+.about-img::before,
+.feature-img::before {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    left: 20%;
+    border: 5px solid var(--primary);
+    z-index: -1;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.ms-4 {
+    margin-left: 1.5rem !important;
+}
+.why-title{
+font-size: 20px;
+}
+.why-para{
+font-size: 13px;
+}
+.main-title{
+    font-size: 23px;
+}
+.main-para{
+    font-size: 15px;
+}

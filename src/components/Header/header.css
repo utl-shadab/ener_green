@@ -1,0 +1,177 @@
+:root {
+    --primary: #A7C957;
+    --secondary: #757575;
+    --light: #F3F6F8;
+    --dark: #000000;
+    
+}
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #757575;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: 0px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/*** Button ***/
+
+
+.btn.btn-primary,
+.btn.btn-outline-primary:hover {
+    color: #FFFFFF;
+}
+
+
+
+.get-quote {
+    color: #000;
+    background-color: var(--primary);
+    border-color: var(--primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/*** Navbar ***/
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
+    border-bottom: 1px solid #a7c957;
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 80px
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: var(--dark);
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.navbar a.btn {
+    height: 80px;
+}
+.btn.btn-primary, .btn.btn-outline-primary:hover {
+    color: #FFFFFF;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1100px) {
+    .navbar .navbar-nav .nav-link {
+        margin-right: 25px;
+        font-size: 14px;
+        padding: 25px 0;
+        color: var(--dark);
+        font-weight: 500;
+        text-transform: uppercase;
+        outline: none;
+    }
+}
+@media (max-width: 500px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    a.btn.btn-primary.py-sm-3.px-sm-5 {
+        margin: 12px;
+    }
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+        display: inline-block;
+    }
+    .get-quote {
+        position: absolute;
+        top: 69% ;
+        right: -7%;
+        font-size: 12px;
+        padding: 9px 14px !important;
+        border-radius: 20px;
+        /* padding: 0; */
+        rotate: 90deg;
+    }
+}
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+small , .fab , .fa{
+    color: #a7c957;
+}
+small a{
+    color: #a7c957;
+text-decoration: none;
+}
+.logo img{
+    height: 60px !important;
+}
+.logo{
+    font-size: 20px;
+    font-family: "Caveat", cursive;
+}

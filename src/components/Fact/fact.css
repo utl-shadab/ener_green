@@ -1,0 +1,38 @@
+:root {
+    --primary: #A7C957;
+    --secondary: #757575;
+    --light: #F3F6F8;
+    --dark: #000000;
+    
+}
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+/*** Facts ***/
+.facts-overlay {
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, .65);
+}
+
+.facts-overlay h1 {
+    font-size: 120px;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--primary);
+}
+
+.facts-overlay a:hover {
+    color: var(--primary) !important;
+}
+.facts-img {
+    width: 100% !important;
+    height: 400px;
+    object-fit: cover;
+}
