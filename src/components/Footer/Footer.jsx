@@ -55,7 +55,7 @@ class Footer extends React.Component {
         <Link to="/gallery" className="text-white text-decoration-none d-block">Gallery</Link>
         <Link to="/privacy" className="text-white text-decoration-none d-block">Privacy Policy</Link>
         <Link to="/terms" className="text-white text-decoration-none d-block">Terms &amp; Conditions</Link>
-        <Link to="/whatsapp" className="text-white text-decoration-none d-block">Whatsapp</Link>
+      
       </Col>
             <Col lg={3} md={6}>
               <h4 className="text-light mb-4">Newsletter</h4>
